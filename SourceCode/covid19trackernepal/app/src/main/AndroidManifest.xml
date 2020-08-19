@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covid_19trackernepal">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <supports-screens
+        android:resizeable="false"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"
+        android:requiresSmallestWidthDp="320"
+        android:compatibleWidthLimitDp="320"
+        android:largestWidthLimitDp="720"/>
+
+    <compatible-screens>
+        <!--no small size screens -->
+
+        <!--all normal size screens -->
+        <screen android:screenSize="normal" android:screenDensity="ldpi" />
+        <screen android:screenSize="normal" android:screenDensity="mdpi" />
+        <screen android:screenSize="normal" android:screenDensity="hdpi" />
+        <screen android:screenSize="normal" android:screenDensity="xhdpi" />
+
+        <!-- all large size screens -->
+        <screen android:screenSize="large" android:screenDensity="ldpi" />
+        <screen android:screenSize="large" android:screenDensity="mdpi" />
+        <screen android:screenSize="large" android:screenDensity="hdpi" />
+        <screen android:screenSize="large" android:screenDensity="xhdpi" />
+
+        <!-- all xlarge size screens -->
+        <screen android:screenSize="xlarge" android:screenDensity="ldpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="mdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="hdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="xhdpi" />
+
+        <!-- Special case for Nexus 7 -->
+        <screen android:screenSize="large" android:screenDensity="213" />
+        <screen android:screenSize="normal" android:screenDensity="480" />
+        <screen android:screenSize="large" android:screenDensity="480" />
+        <screen android:screenSize="xlarge" android:screenDensity="480" />
+
+    </compatible-screens>
+
+    <meta-data
+        android:name="AA_DB_NAME"
+        android:value="covidtracker.db" />
+    <meta-data
+        android:name="AA_DB_VERSION"
+        android:value="3" />
+
+    <application
+        android:allowBackup="true"
+        android:name=".app.MyApplication"
+        android:icon="@mipmap/app_main_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_main_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        android:configChanges="orientation|keyboardHidden|screenSize">
+
+        <activity
+            android:name=".activity.Activity_SplashScreen"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.thefinestartist.finestwebview.FinestWebViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor"
+            android:theme="@style/FinestWebViewTheme.Light" />
+
+        <activity
+            android:name=".activity.Activity_Welcome"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"/>
+
+        <activity
+            android:name=".activity.Activity_BottomNav"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"/>
+
+        <activity
+            android:name=".activity.Activity_FAQ"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance" />
+
+        <activity
+            android:name=".activity.Activity_Symptoms"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"/>
+
+        <activity
+            android:name=".activity.Activity_Prevention"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"/>
+
+        <activity
+            android:name=".activity.Activity_NewsDescription"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"/>
+
+        <activity
+            android:name=".activity.Activity_HospitalDetails"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"/>
+
+    </application>
+
+</manifest>

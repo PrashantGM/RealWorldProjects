@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menuText">
+        <item>News</item>
+        <item>LIVE Radio</item>
+        <item>प्रदेश ७ समाचार</item>
+        <item>राष्ट्रिय</item>
+        <item>अन्तराष्ट्रिय</item>
+        <item>राजनीति</item>
+        <item>मनोरन्जन</item>
+        <item>अर्थ</item>
+    </string-array>
+
+        <string-array name="news_category_items">
+        <item>प्रदेश ७ समाचार</item>
+        <item>राष्ट्रिय</item>
+        <item>अन्तराष्ट्रिय</item>
+        <item>राजनीति</item>
+        <item>मनोरन्जन</item>
+        <item>अर्थ</item>
+    </string-array>
+
+    <string-array name="empty_array"></string-array>
+
+    <string-array name="news_category_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <integer-array name="all_news_category_id">
+        <item>39</item>
+        <item>37</item>
+        <item>36</item>
+        <item>26</item>
+        <item>28</item>
+        <item>23</item>
+    </integer-array>
+
+    <string-array name="news_category_id">
+        <item>39</item>
+        <item>37</item>
+        <item>36</item>
+        <item>26</item>
+        <item>28</item>
+        <item>23</item>
+
+    </string-array>
+
+   <!-- <string-array name="name">
+        <item>Kathmandu Hospital</item>
+        <item>Pokhara Hospital</item>
+        <item>Nepal Police</item>
+        <item>Bir Hospital, Kathmandu</item>
+        <item>Kathmandu Ambulance</item>
+        <item>Jhapa Ambulance</item>
+        <item>Pokhara Ambulance</item>
+        <item>Morang Ambulance</item>
+        <item>Dharan Ambulance</item>
+    </string-array>
+
+    <string-array name="number">
+        <item>100, 101, 102</item>
+        <item>100, 101, 102</item>
+        <item>100, 101, 102</item>
+        <item>100, 101, 102</item>
+        <item>100, 101, 102</item>
+        <item>100, 101, 102</item>
+        <item>100, 101, 102</item>
+        <item>100, 101, 102</item>
+        <item>100, 101, 102</item>
+
+    </string-array>-->
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_faq"
+        app:showAsAction="ifRoom"
+        android:title="@string/title_faq"
+        android:icon="@drawable/ic_faq_black_24dp"/>
+
+    <item
+        android:id="@+id/action_symptoms"
+        app:showAsAction="ifRoom"
+        android:title="@string/title_symptoms"
+        android:icon="@drawable/ic_symptoms_black_24dp"/>
+
+    <item
+        android:id="@+id/action_prevention"
+        app:showAsAction="ifRoom"
+        android:title="@string/title_prevention"
+        android:icon="@drawable/ic_prevention_black_24dp"/>
+
+</menu>

@@ -1,0 +1,14 @@
+
+    <resources>
+        <declare-styleable name="MyTextView">
+        <attr name="font_type" format="enum">
+            <enum name="Roboto_Bold" value="0"/>
+            <enum name="Roboto_Medium" value="1"/>
+            <enum name="EkMukta_Bold" value="2"/>
+            <enum name="EkMukta_SemiBold" value="3"/>
+            <enum name="EkMukta_Regular" value="4"/>
+            <enum name="EkMukta_Medium" value="5"/>
+
+        </attr>
+        </declare-styleable>
+    </resources>

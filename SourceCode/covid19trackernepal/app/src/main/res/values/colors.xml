@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0097a7</color>
+    <color name="colorPrimaryDark">#008EB1</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="site_color">#337ab7</color>
+    <color name="blue">#3F51B5</color>
+    <color name="white">#ffffff</color>
+    <color name="twitter">#1da1f2</color>
+    <color name="facebook">#29487d</color>
+    <color name="purple">#673AB7</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="lime">#CDDC39</color>
+    <color name="orange">#FF9800</color>
+    <color name="light_grey">#757575</color>
+    <color name="dark_grey">#A9A9A9</color>
+    <color name="greylight">#fafafa</color>
+    <color name="grey">#808080</color>
+    <color name="btn_back">#d67601</color>
+
+    <color name="recovered">#4CAF50</color>
+    <color name="negative">#00897B</color>
+    <color name="positive">#FF1744</color>
+    <color name="quarantine">#37474f</color>
+    <color name="isolation">#0277BD</color>
+    <color name="death">#FF6F00</color>
+    <color name="cases">#e64a19</color>
+    <color name="today_cases">#006064</color>
+    <color name="today_death">#b71c1c</color>
+
+    <color name="primary">#000000</color>
+    <color name="primary_dark">#000000</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#000000</color>
+    <color name="primary_text">#f59870</color>
+    <color name="secondary_text">#ffc6c6</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="background">#6163ce</color>
+    <color name="backgroundDark">#353554</color>
+    <color name="windowBackground">#f3f3f3</color>
+    <color name="textGrey">#444</color>
+    <color name="stripe">#2a2765</color>
+    <color name="themeColor">#2a2765</color>
+
+    <color name="toolbar_color">#ffffff</color>
+    <color name="tab_color">#F82E3F</color>
+    <color name="tab_indicator_color">#8B0000</color>
+    <color name="navigation_bg">#dae1e5</color>
+    <color name="toolbar_text">#222222</color>
+    <color name="navigation_highlight_text">#333</color>
+    <color name="navigation_normal_text">#747779</color>
+
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark1">#303F9F</color>
+    <color name="colorAccent1">#FF4081</color>
+
+    <color name="placeholder_gray">#ffeeeeee</color>
+    <color name="menu_background">#f8f8f8</color>
+
+    <color name="colorPrimarySplash">#00C853</color>
+    <color name="colorPrimaryDarkSplash">#00993F</color>
+    <color name="colorAccentSplash">#E65100</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#3F51B5</color>
+    <color name="bg_screen2">#d67601</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+</resources>

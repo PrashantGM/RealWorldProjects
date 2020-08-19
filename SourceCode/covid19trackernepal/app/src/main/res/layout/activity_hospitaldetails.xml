@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <TextView
+                android:gravity="start"
+                android:layout_gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hospital_info"
+                style="@style/toolbarTextStyle"
+                android:id="@+id/toolbarText"
+                android:fontFamily="@fonts/montserrat_bold"/>
+
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="N/A"
+                        android:textColor="@color/colorAccent"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:id="@+id/hospitalMainName"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Address:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalAddressTXT"
+                        android:layout_below="@+id/hospitalMainName"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainAddress"
+                        android:layout_toRightOf="@+id/hospitalAddressTXT"
+                        android:layout_below="@+id/hospitalMainName"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Phone:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalPhoneTXT"
+                        android:layout_below="@+id/hospitalAddressTXT"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainPhone"
+                        android:layout_toRightOf="@+id/hospitalPhoneTXT"
+                        android:layout_below="@+id/hospitalAddressTXT"
+                        android:clickable="false"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Email:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalEmailTXT"
+                        android:layout_below="@+id/hospitalMainPhone"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainEmail"
+                        android:layout_toRightOf="@+id/hospitalEmailTXT"
+                        android:layout_below="@+id/hospitalMainPhone"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Website:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalWebsiteTXT"
+                        android:layout_below="@+id/hospitalMainEmail"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainWebsite"
+                        android:layout_toRightOf="@+id/hospitalWebsiteTXT"
+                        android:layout_below="@+id/hospitalMainEmail"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Contact Person:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalMainContactPersonTXT"
+                        android:layout_below="@+id/hospitalMainWebsite"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainContactPerson"
+                        android:layout_toRightOf="@+id/hospitalMainContactPersonTXT"
+                        android:layout_below="@+id/hospitalMainWebsite"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Contact Person Phone:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalMainContactPersonNoTXT"
+                        android:layout_below="@+id/hospitalMainContactPerson"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainContactPersonNo"
+                        android:layout_toRightOf="@+id/hospitalMainContactPersonNoTXT"
+                        android:layout_below="@+id/hospitalMainContactPerson"
+                        android:clickable="false"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/hospitalView"
+                        android:layout_below="@id/hospitalMainContactPersonNo"
+                        android:background="@color/light_grey"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="Capacity"
+                        android:textColor="@color/colorAccentSplash"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalMainCapacityTXT"
+                        android:layout_below="@+id/hospitalMainContactPersonNo"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Total Beds:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalMainTotalBedsTXT"
+                        android:layout_below="@+id/hospitalMainCapacityTXT"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainTotalBeds"
+                        android:layout_toRightOf="@+id/hospitalMainTotalBedsTXT"
+                        android:layout_below="@+id/hospitalMainCapacityTXT"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Total Ventilators:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalMainVentilatorsTXT"
+                        android:layout_below="@+id/hospitalMainTotalBeds"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainVentilators"
+                        android:layout_toRightOf="@+id/hospitalMainVentilatorsTXT"
+                        android:layout_below="@+id/hospitalMainTotalBeds"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Total Isolation Beds:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalMainTotalIsolationBedsTXT"
+                        android:layout_below="@+id/hospitalMainVentilators"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainTotalIsolationBeds"
+                        android:layout_toRightOf="@+id/hospitalMainTotalIsolationBedsTXT"
+                        android:layout_below="@+id/hospitalMainVentilators"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Total Occupied Beds:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalMainTotalOccupiedBedsTXT"
+                        android:layout_below="@+id/hospitalMainTotalIsolationBeds"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainTotalOccupiedBeds"
+                        android:layout_toRightOf="@+id/hospitalMainTotalOccupiedBedsTXT"
+                        android:layout_below="@+id/hospitalMainTotalIsolationBeds"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Total Doctors:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalMainTotalDoctorsTXT"
+                        android:layout_below="@+id/hospitalMainTotalOccupiedBeds"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainTotalDoctors"
+                        android:layout_toRightOf="@+id/hospitalMainTotalDoctorsTXT"
+                        android:layout_below="@+id/hospitalMainTotalOccupiedBeds"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="Total Nurses:"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="7dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/hospitalMainTotalNursesTXT"
+                        android:layout_below="@+id/hospitalMainTotalDoctors"
+                        android:clickable="false"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:text="N/A"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="9dp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:id="@+id/hospitalMainTotalNurses"
+                        android:layout_toRightOf="@+id/hospitalMainTotalNursesTXT"
+                        android:layout_below="@+id/hospitalMainTotalDoctors"
+                        android:clickable="false"/>
+
+                </RelativeLayout>
+            </ScrollView>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

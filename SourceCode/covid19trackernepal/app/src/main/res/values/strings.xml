@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">COVID-19 Tracker</string>
+    <string name="title_home">Home</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_hospitals">Hospitals</string>
+    <string name="hospital">COVID-19 Hospitals</string>
+    <string name="testing">Hospitals for testing of COVID-19</string>
+    <string name="title_faq">FAQs</string>
+    <string name="faqs">General FAQs</string>
+    <string name="faq">COVID-19 FAQs</string>
+    <string name="title_covid">COVID-19 Nepal</string>
+    <string name="assessment">Assessment</string>
+    <string name="self_checker">COVID-19 Self Checker</string>
+    <string name="title_assessment">Assessment</string>
+    <string name="title_symptoms">Symptoms</string>
+    <string name="symptoms">COVID-19 Symptoms</string>
+    <string name="covid_symptoms">Symptoms for COVID-19</string>
+    <string name="title_prevention">Prevention</string>
+    <string name="prevention">COVID-19 Prevention</string>
+    <string name="covid_prevention">Prevention measures for COVID-19</string>
+    <string name="about_app">About App</string>
+    <string name="title_news">News</string>
+    <string name="news">COVID-19 News</string>
+    <string name="title_logout">LOGOUT</string>
+    <string name="logout">Logout</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="share">Share</string>
+    <string name="view_in_web">View in Web</string>
+    <string name="news_desc">News Description</string>
+    <string name="hospital_info">Hospital Information</string>
+    <string name="covid_cases">COVID-19 Cases</string>
+
+    <string name="version">Version 1.0</string>
+    <string name="covid">COVID-19 Tracker Nepal</string>
+    <string name="self_check">Coronavirus (COVID-19) Self-Checker</string>
+    <string name="terms">I agree that the provided details are correct and have no objection to provide my personal details.</string>
+    <string name="age">Age *</string>
+    <string name="age_required">Age is required</string>
+    <string name="gender">Gender</string>
+    <string name="temperature">Temperature</string>
+    <string name="normal">96-98.6</string>
+    <string name="fever">98.6-102</string>
+    <string name="high_fever">>102</string>
+    <string name="quarantine">Have you self-quarantined in your house?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cough">Do you have suffered from cough and cold?</string>
+    <string name="sore_throat">Do you have sore throat?</string>
+    <string name="aches">Do you have new muscle aches?</string>
+    <string name="diarrhea">Do you have suffered from diarrhea?</string>
+    <string name="headache">Do you have suffered from headache?</string>
+    <string name="breath">Do you have new shortness of breath?</string>
+    <string name="abroad">Have you returned in 3 weeks from a country affected by COVID-19?</string>
+    <string name="contact">Have you had close contact with someone diagnosed with COVID-19 positive?</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="more">More Info</string>
+    <string name="nepal">Nepal Updates</string>
+    <string name="world">Global Updates</string>
+    <string name="updated">Updated on:</string>
+    <string name="positive">Total Active Cases</string>
+    <string name="recovered">Total Recovered</string>
+    <string name="negative">Total Negative Cases</string>
+    <string name="death">Total Deaths</string>
+    <string name="isolation">Total in Isolation</string>
+    <string name="totalquarantine">Total in Quarantine</string>
+    <string name="cases">Total Cases</string>
+    <string name="affected">Affected Countries</string>
+    <string name="todaydeaths">Today Deaths</string>
+    <string name="todayrecovered">Today Recovered</string>
+    <string name="critical">Total Critical Cases</string>
+    
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="o">(O)</string>
+    <string name="p">(P)</string>
+    <string name="r">(R)</string>
+
+    <string name="slide_1_title">COVID-19 Global Updates</string>
+    <string name="slide_1_desc">View latest COVID-19 updates of the world.</string>
+
+    <string name="slide_2_title">COVID-19 Latest News</string>
+    <string name="slide_2_desc">View latest COVID-19 related latest news.</string>
+
+    <string name="slide_3_title">COVID-19 Hospital Contact</string>
+    <string name="slide_3_desc">View details of COVID-19 hospitals.</string>
+
+    <string name="slide_4_title">COVID-19 Self-Checker</string>
+    <string name="slide_4_desc">Check whether your symptoms match to COVID-19 or not.</string>
+
+    <string name="sym_title">Signs and symptoms of coronavirus disease 2019 (COVID-19) may appear two to 14 days after exposure. This time after exposure and before having symptoms is called the incubation period. Common signs and symptoms can include:</string>
+
+    <string name="sym1">1. Fever</string>
+    <string name="sym2">2. Cough</string>
+    <string name="sym3">3. Tiredness</string>
+    <string name="sym4">4. Shortness of breath or difficulty breathing</string>
+    <string name="sym5">5. Muscle aches</string>
+    <string name="sym6">6. Chills</string>
+    <string name="sym7">7. Sore Throat</string>
+    <string name="sym8">8. Loss of taste or smell</string>
+    <string name="sym9">9. Headache</string>
+    <string name="sym10">10. Chest Pain</string>
+    
+    <string name="prevention1_title">1. Wash and Clean your Hands Frequently</string>
+    <string name="prevention1_desc">Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing.\n\n If soap and water are not readily available, use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.\n\nAvoid touching your eyes, nose, and mouth with unwashed hands.</string>
+
+    <string name="prevention2_title">2. Maintain Social Distancing</string>
+    <string name="prevention2_desc">Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.\n\n Why? When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease.</string>
+
+    <string name="prevention3_title">3. Take Steps to Protect Others</string>
+    <string name="prevention3_desc">Stay home if you are sick, except when it’s an emergency to get the medical care. Cover your mouth and nose with a tissue when you cough or sneeze or use the inside of your elbow.\n\n Immediately wash your hands with soap and water for at least 20 seconds. If soap and water are not readily available, clean your hands with a hand sanitizer that contains at least 60% alcohol.</string>
+
+    <string name="prevention4_title">4. WHO guidelines on how to Wear a Mask</string>
+    <string name="prevention4_desc">Before putting on a mask, clean hands with alcohol-based hand rub or soap and water.Cover mouth and nose with mask and make sure there are no gaps between your face and the mask. \n\nAvoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.Replace the mask with a new one as soon as it is damp and do not re-use single-use masks. \n\n To remove the mask: remove it from behind (do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water.</string>
+
+    <string name="prevention5_title">5. Clean and disinfect</string>
+    <string name="prevention5_desc">Clean and disinfect frequently touched surfaces daily. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks. \n\n If surfaces are dirty, clean them: Use detergent or soap and water prior to disinfection</string>
+
+    <string name="faq0_title">1.What is COVID-19?</string>
+    <string name="faq0_desc">COVID-19 is an infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.</string>
+
+    <string name="faq1_title">2.What is a coronavirus?</string>
+    <string name="faq1_desc">Coronaviruses are a large family of viruses that may cause illness in animals or humans. In humans, several coronaviruses are known to cause respiratory infections. The most recently discovered coronavirus causes coronavirus disease COVID-19.</string>
+
+    <string name="faq2_title">3.What are the symptoms of COVID-19?</string>
+    <string name="faq2_desc">The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and donot feel unwell.</string>
+
+    <string name="faq3_title">4.How does the COVID-19 disease transmit from person to person?</string>
+    <string name="faq3_desc">The disease can spread from person to person if they breathe in the small droplets containing the virus when that person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth.</string>
+
+    <string name="faq4_title">5.How does the COVID-19 disease transmit from person to person?</string>
+    <string name="faq4_desc">Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air.</string>
+
+    <string name="faq5_title">6.Can COVID-19 be caught from a person who has no symptoms?</string>
+    <string name="faq5_desc">It is possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill.</string>
+
+    <string name="faq6_title">7.Are antibiotics effective in preventing or treating the COVID-19?</string>
+    <string name="faq6_desc">No. Antibiotics do not work against viruses, they only work on bacterial infections.</string>
+
+    <string name="faq7_title">8.Are there any medicines to cure COVID-19?</string>
+    <string name="faq7_desc">There is no evidence that current medicine can prevent or cure the disease. There are several ongoing clinical trials that include both western and traditional medicines.</string>
+
+    <string name="faq8_title">9.Will wearing a mask protect me from the COVID-19?</string>
+    <string name="faq8_desc">Not really. Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people.</string>
+
+    <string name="faq9_title">10.Can humans become infected with the COVID-19 from an animal source?</string>
+    <string name="faq9_desc">It’s possible. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products.</string>
+
+    <string name="faq10_title">11.Can I catch COVID-19 from my pet?</string>
+    <string name="faq10_desc">There is no evidence that a dog, cat or any pet can transmit COVID-19.</string>
+
+    <string name="faq11_title">12.How long does the virus survive on surfaces?</string>
+    <string name="faq11_desc">Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days.</string>
+
+    <string name="faq12_title">13.Will warm weather stop the outbreak?</string>
+    <string name="faq12_desc">At this time, it is not known whether the spread of COVID-19 will decrease when weather becomes warmer.</string>
+
+    <string name="faq13_title">14.Can COVID-19 be passed from a pregnant woman to the fetus or newborn?</string>
+    <string name="faq13_desc">We still do not know if a pregnant woman with COVID-19 can pass the virus that causes COVID-19 to her fetus or baby during pregnancy or delivery.</string>
+
+    <string name="faq14_title">15.Can the COVID-19 virus spread through drinking water?</string>
+    <string name="faq14_desc">The COVID-19 virus has not been detected in drinking water. Conventional water treatment methods that use filtration and disinfection, such as those in most municipal drinking water systems, should remove or inactivate the virus that causes COVID-19.</string>
+
+    <string name="faq15_title">16.Is the COVID-19 virus found in feces?</string>
+    <string name="faq15_desc">The virus that causes COVID-19 has been detected in the feces of some patients diagnosed with COVID-19. The amount of virus released from the body (shed) in stool, how long the virus is shed, and whether the virus in the stool is infectious are not known.</string>
+
+    <string name="faq16_title">17.Is it possible to have the flu and COVID-19 at the same time?</string>
+    <string name="faq16_desc">Yes. It is possible to test positive for flu (as well as other respiratory infections) and COVID-19 at the same time.</string>
+
+    <string name="faq17_title">18.Who is at higher risk for serious illness from COVID-19?</string>
+    <string name="faq17_desc">COVID-19 is a new disease and there is limited information regarding risk factors for severe disease. Based on currently available information and clinical expertise, older adults and people of any age who have serious underlying medical conditions might be at higher risk for severe illness from COVID-19.</string>
+
+    <string name="faq18_title">19.Can mosquitoes or ticks spread the virus that causes COVID-19?</string>
+    <string name="faq18_desc">At this time, CDC has no data to suggest that this new coronavirus or other similar coronaviruses are spread by mosquitoes or ticks. The main way that COVID-19 spreads is from person to person. </string>
+
+    <string name="faq19_title">20.How does the virus spread?</string>
+    <string name="faq19_desc">The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs or sneezes. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs. Spread is more likely when people are in close contact with one another (within about 6 feet).</string>
+
+</resources>
