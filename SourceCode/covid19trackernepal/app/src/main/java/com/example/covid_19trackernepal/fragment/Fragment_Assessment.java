@@ -140,7 +140,7 @@ public class Fragment_Assessment extends Fragment {
                 strContact = radioButton8.getText().toString();
                 strQuarantine = radioButton9.getText().toString();
 
-                if(strAge.isEmpty() || strAge.equals("")){
+                if(strAge.isEmpty() || strAge.trim().equals("")){
                     Toasty.error(getContext(),"Please Enter Your Age",200).show();
                 } else if(strAge!=null && strGender!=null && strTemperature.matches(">102") && strCough.matches("Yes") && strAches.matches("Yes") && strSoreThroat.matches("Yes") && strDiarrhea.matches("Yes") && strHeadache.matches("Yes") && strBreath.matches("Yes") && strAbroad.matches("Yes") && strContact.matches("Yes") && strQuarantine.matches("No")){
                     Toasty.success(getContext(),"Data Submitted Successfully",200).show();

@@ -61,7 +61,8 @@ public class Fragment_Hospital extends Fragment {
 
         if (cd.isNetworkAvailable() || cd.isDataAvailable()) {
             getHospitalData();
-        } if(!cd.isNetworkAvailable() || !cd.isDataAvailable()){
+        }
+        if(!cd.isNetworkAvailable() || !cd.isDataAvailable()){
             progressDialog.dismiss();
             txtPrompt.setVisibility(View.VISIBLE);
             txtPrompt.setText("No Internet Connection. Cannot Load Data from Server.");
