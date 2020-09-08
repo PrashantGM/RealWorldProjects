@@ -65,7 +65,8 @@ public class Fragment_News extends Fragment {
 
         if (cd.isNetworkAvailable() || cd.isDataAvailable()) {
             getNepalCovidNews();
-        } if(!cd.isNetworkAvailable() || !cd.isDataAvailable()){
+        } 
+        if(!cd.isNetworkAvailable() || !cd.isDataAvailable()){
             progressDialog.dismiss();
             txtPrompt1.setVisibility(View.VISIBLE);
             txtPrompt1.setText("No Internet Connection. Cannot Load Data from Server.");
